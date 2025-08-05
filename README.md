@@ -8,7 +8,7 @@
 
 API REST desarrollada con **Spring Boot**, conectada a **MySQL**, con autenticación basada en **JWT** y probada mediante **Insomnia**. Permite gestionar usuarios y tópicos en un foro educativo.
 
-===================================================================================================
+=========================================
 
 ## 📦 Tecnologías utilizadas
 
@@ -23,7 +23,8 @@ API REST desarrollada con **Spring Boot**, conectada a **MySQL**, con autenticac
 - Insomnia
 - Git + GitHub
 
-===================================================================================================
+=========================================
+
 
 
 ## 🚀 Instrucciones para ejecutar el proyecto
@@ -54,7 +55,8 @@ Esperar a que descargue dependencias
 
 Ejecutar clase principal con @SpringBootApplication
 
-===================================================================================================
+=========================================
+
 🔐 Seguridad con JWT
 Endpoint de login para obtener el token
 POST http://localhost:8080/api/auth/login
@@ -70,7 +72,7 @@ Respuesta:
   "token": "eyJhbGciOiJIUzI1NiJ9..."
 }
 
-===================================================================================================
+=========================================
 
 🧪 Uso en Insomnia
 Configurar el token JWT
@@ -86,7 +88,7 @@ Endpoints disponibles
 | PUT    | /api/topicos/{id} | Actualizar tópico        |
 | DELETE | /api/topicos/{id} | Eliminar tópico          |
 
-===================================================================================================
+=========================================
 
 📤 Subir a GitHub (si es tu proyecto local)
 
@@ -97,11 +99,15 @@ git branch -M main
 git remote add origin https://github.com/TU_USUARIO/foro-curso.git
 git push -u origin main
 
-===================================================================================================
-    ✍️ Autor
-    Claudio Miranda 
-    Este proyecto está bajo la licencia MIT.
-===================================================================================================
+=========================================
+
+ ✍️ Autor
+ Claudio Miranda
+
+ 
+ Este proyecto está bajo la licencia MIT.
+
+=========================================
 
 
 
